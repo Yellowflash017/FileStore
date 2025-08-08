@@ -23,14 +23,14 @@ APP_ID = int(os.environ.get("APP_ID", "26994371")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "a60378d9912c6d9b6c0394a3e4fab373") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002325161172")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002663611730")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "AnimeXExplorer") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "5274591628")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rpsinghorai9:AnimeXExplorer017@shadow-garden.zfb1ncq.mongodb.net/?retryWrites=true&w=majority&appName=Shadow-Garden")
-DB_NAME = os.environ.get("DATABASE_NAME", "Shadow")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ldragodesu017:LXDRAGO17@yellow-flash.axieiyb.mongodb.net/?retryWrites=true&w=majority&appName=Yellow-Flash")
+DB_NAME = os.environ.get("DATABASE_NAME", "Yellow Flash")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "")
