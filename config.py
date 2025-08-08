@@ -30,7 +30,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5274591628")) # Owner id
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ldragodesu017:LXDRAGO17@yellow-flash.axieiyb.mongodb.net/?retryWrites=true&w=majority&appName=Yellow-Flash")
-DB_NAME = os.environ.get("DATABASE_NAME", "Yellow Flash")
+DB_NAME = os.environ.get("DATABASE_NAME", "Shadow")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "")
